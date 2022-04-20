@@ -1,0 +1,19 @@
+.team__pagination {
+  max-width: 68px;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1080px) {
+  .team__pagination {
+    max-width: 88px;
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .team__pagination {
+    max-width: 40px;
+    margin-top: 14px;
+  }
+}

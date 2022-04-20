@@ -1,0 +1,27 @@
+.industrial__photos {
+  display: flex;
+  max-width: 540px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__photos {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .industrial__photos {
+    order: 1;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__photos {
+    width: 288px;
+    height: 180px;
+    margin-left: 32px;
+  }
+}

@@ -1,0 +1,10 @@
+.industrial__icons_type_micro {
+  background-image: url(../../../../images/micro-v.svg);
+  background-position: center calc(50%);
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icons_type_micro {
+    background-image: url(../../../../images/micro-vs.svg);
+  }
+}

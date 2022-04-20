@@ -1,0 +1,20 @@
+.footer__container {
+  width: 77%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1100px) {
+  .footer__container {
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+}

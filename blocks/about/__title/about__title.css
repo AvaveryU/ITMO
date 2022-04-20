@@ -1,0 +1,19 @@
+.about__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+@media screen and (max-width: 480px){
+  .about__title {
+    font-size: calc(32px + (54 - 32) * ( (100vw - 320px) / ( 480 - 320) ));
+    line-height: calc(44px + (68 - 44) * ( (100vw - 320px) / ( 480 - 320) ));
+  }
+}

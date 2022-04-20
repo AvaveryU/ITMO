@@ -1,0 +1,26 @@
+.projects__background {
+  background-image: url(../../../images/Factory.png);
+  background-size: cover;
+}
+
+.projects__background-sber {
+  background-image: url(../../../images/sber-podlojka.png);
+  background-size: cover;
+}
+
+@media (max-width: 1300px) {
+  .projects__background {
+    width: 226px;
+    height: 199px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 130px;
+  }
+}

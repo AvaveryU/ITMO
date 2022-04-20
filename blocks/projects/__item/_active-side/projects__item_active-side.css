@@ -1,0 +1,25 @@
+.projects__item_active-side {
+  display: none;
+  z-index: 2;
+  width: 537px;
+  position: relative;
+  height: 228px;
+  border-radius: 10px;
+  background-color: #e0f0ff;
+  margin-left: calc(-100% - 32px);
+}
+
+@media (max-width: 1300px) {
+  .projects__item_active-side {
+    width: 450px;
+    height: 199px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__item_active-side {
+    width: 288px;
+    height: 130px;
+    margin-left: calc(-100% - 8px);
+  }
+}

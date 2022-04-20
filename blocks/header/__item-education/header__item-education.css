@@ -1,0 +1,12 @@
+.header__item-education {
+  width: 120px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.header__item-education:hover {
+  background-color: #009fac;
+}

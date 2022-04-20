@@ -1,0 +1,10 @@
+.industrial__icons_type_brain {
+  background-image: url(../../../../images/brain-v.svg);
+  background-position: center center;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icons_type_brain {
+    background-image: url(../../../../images/brain-vs.svg);
+  }
+}

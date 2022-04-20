@@ -1,0 +1,12 @@
+.popup__list-item {
+  max-width: 650px;
+  width: calc(100% - 40px);
+  display: block;
+}
+
+@media screen and (max-width: 730px) {
+  .popup__list-item {
+    max-width: 268px;
+    width: calc(100% - 32px);
+  }
+}

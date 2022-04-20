@@ -1,0 +1,43 @@
+.popup__exit-button {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-image: url(../../../images/close.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  opacity: 1;
+  transition: opacity .3s ease-in;
+  position: absolute;
+  top: 16.5px;
+  right: 20px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popup__exit-button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 1020px) {
+  .popup__exit-button {
+    background-image: url(../../../images/close-l.svg);
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .popup__exit-button {
+    background-image: url(../../../images/close-ls.svg);
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    right: 14px;
+    object-fit: contain;
+  }
+
+  .popup__exit-button:hover {
+    opacity: 1;
+  }
+}

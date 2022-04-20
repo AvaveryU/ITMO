@@ -1,0 +1,10 @@
+.industrial__icons_type_project {
+  background-image: url(../../../../images/project-v.svg);
+  background-position: center calc(50% - 1px);
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icons_type_project {
+    background-image: url(../../../../images/project-vs.svg);
+  }
+}

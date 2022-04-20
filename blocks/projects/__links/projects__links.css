@@ -1,0 +1,14 @@
+.projects__links {
+  width: 1103px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0 0 60px 0;
+  padding: 0;
+}
+
+@media (max-width: 1300px) {
+  .projects__links {
+    display: none;
+  }
+}

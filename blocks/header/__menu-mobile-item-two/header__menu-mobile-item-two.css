@@ -1,0 +1,28 @@
+.header__menu-mobile-item-two {
+    min-height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: .5;
+    transition: background-color .5s linear;
+    transition: opacity .5s linear;
+}
+.header__menu-mobile-item-two:hover  {
+    opacity: 1;
+}
+.header__menu-mobile-item-two:hover .header__menu-mobile-list-education {
+    display: block;
+    opacity: 1;
+}
+.header__menu-mobile-item-two:hover .header__menu-mobile-item-education {
+    opacity: 1;
+}
+  
+  

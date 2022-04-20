@@ -1,0 +1,5 @@
+@media screen and (max-width: 1260px) {
+  .work__item_type_disabled {
+    display: none;
+  }
+}

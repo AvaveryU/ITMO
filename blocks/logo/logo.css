@@ -1,0 +1,28 @@
+.logo {
+  width: 150px;
+  height: 54px;
+  color: #fff;
+}
+
+
+@media (max-width: 600px) {
+  .logo {
+    width: 98px;
+    height: 33px;
+  }
+}
+=======
+@media all and (max-width: 1024px) {
+  .logo {
+    width: 94.67px;
+    height: 32px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .logo {
+    width: 71px;
+    height: 24px;
+  }
+}
+

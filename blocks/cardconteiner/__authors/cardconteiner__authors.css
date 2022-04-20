@@ -1,0 +1,19 @@
+.cardconteiner__authors {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    color: #009FAC;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__authors {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 145%;
+    }
+}

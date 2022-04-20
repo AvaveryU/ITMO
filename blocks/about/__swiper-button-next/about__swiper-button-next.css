@@ -1,0 +1,28 @@
+.about__swiper-button-next{
+    width: 60px !important;
+    height: 60px !important;
+    border: none;
+    color: #fff !important;
+    background-color: transparent;
+    background-image: url(../../../images/button_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1 !important;
+    border-radius: 50%;
+    box-shadow: 0px 4px 30px rgb(224 240 255 / 10%);
+    cursor: pointer;
+    right: 80px !important;
+    left: auto;
+    z-index: 0 !important;
+}
+.about__swiper-button-next::after{
+    content: "" !important;
+}
+.about__swiper-button-next:hover{
+    background-image: url(../../../images/button_right_hover.svg);
+}
+@media screen and (max-width: 1024px){
+    .about__swiper-button-next{
+        display: none !important;
+    }
+}

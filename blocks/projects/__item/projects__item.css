@@ -1,0 +1,52 @@
+.projects__item {
+  position: relative;
+  width: 254px;
+  height: 228px;
+  border-radius: 10px;
+  background-image: url(../../../images/Factory.png);
+  background-size: cover;
+  background-position: bottom;
+  background-color: #009fac;
+}
+
+.projects__item-sber {
+  background-image: url(../../../images/sber-podlojka.png);
+}
+
+.projects__item:hover {
+  background-color: #e0f0ff;
+}
+
+.projects__item:hover .projects__text {
+  color: #001337;
+}
+.projects__item:hover .projects__more {
+  background-image: url(../../../images/arrow_green.svg);
+}
+
+.projects__item:hover .projects__logo {
+  background-image: url(../../../images/gazprom_grey.svg);
+}
+
+.projects__item:hover .projects__details {
+  color: #001337;
+}
+
+.projects__item:hover .projects__arrow {
+  background-image: url(../../../images/arrow-right.svg);
+}
+
+@media (max-width: 1300px) {
+  .projects__item {
+    width: 210px;
+    height: 199px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__item {
+    width: 140px;
+    height: 130px;
+    background-image: unset;
+  }
+}

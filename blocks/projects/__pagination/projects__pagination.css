@@ -1,0 +1,11 @@
+.projects__pagination {
+  position: relative !important;
+  background-color: #001337;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}

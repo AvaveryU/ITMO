@@ -1,0 +1,10 @@
+.work__link {
+  display: flex;
+  transition: opacity 0.2s linear;
+  text-decoration: none;
+  height: 100%;
+}
+.work__link:hover {
+  cursor: default;
+  opacity: 0.5;
+}

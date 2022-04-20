@@ -1,0 +1,32 @@
+.projects {
+  background-color: #001337;
+  padding: 0 11.45%;
+}
+
+@media (max-width: 1350px) {
+  .projects {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .projects {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+@media (max-width: 800px) {
+  .projects {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

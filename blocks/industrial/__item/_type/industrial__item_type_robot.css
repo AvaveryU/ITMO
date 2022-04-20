@@ -1,0 +1,7 @@
+.industrial__item_type_robot {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../../images/robot-p.png);
+}
+
+.industrial__item_type_robot:hover {
+  background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url(../../../../images/robot-p.png);
+}

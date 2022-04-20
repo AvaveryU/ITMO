@@ -1,0 +1,35 @@
+.cardconteiner__links {
+    width: 89px;
+    height: 56px;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: -56px;
+    right: 1px;
+    box-shadow: 0px 4px 20px rgb(1 54 157 / 15%);
+    display: none;
+    transition: .4s;
+    margin: 0;
+}
+
+.cardconteiner__links::after {
+    content: '';
+    background-image: url(../../../vendor/images/Vector\ 6.svg);
+    width: 15px;
+    height: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -7px;
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__links {
+        right: -14px;
+    }
+}

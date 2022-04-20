@@ -1,0 +1,20 @@
+.cardconteiner__image {
+    width: 310px;
+    height: 223px;
+}
+
+@media screen and (max-width: 1350px) {
+    .cardconteiner__image {
+        width: 291px;
+        height: 158px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__image {
+        width: 256px;
+        height: 160px;
+    }
+}

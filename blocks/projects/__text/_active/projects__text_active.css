@@ -1,0 +1,32 @@
+.projects__text_active {
+  width: 245px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #001337;
+}
+
+@media (max-width: 1300px) {
+  .projects__text_active {
+    width: 208px;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__text_active {
+    width: 172px;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    letter-spacing: 0.1px;
+  }
+}

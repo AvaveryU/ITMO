@@ -1,0 +1,21 @@
+.projects__page-item {
+  padding: 5px 8px;
+}
+
+.projects__page-item.active .projects__page {
+  border-bottom: 3px solid #009fac;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+@media (max-width: 1300px) {
+  .projects__page-item.active .projects__page {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .footer__columns {
+    flex-wrap: wrap;
+  }
+}

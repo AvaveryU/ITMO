@@ -1,0 +1,15 @@
+.team {
+  max-height: 391px;
+  max-width: 1440px;
+  background-color: #e0f0ff;
+}
+@media screen and (max-width: 1080px) {
+  .team {
+    max-height: 314px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .team {
+    max-height: 227px;
+  }
+}

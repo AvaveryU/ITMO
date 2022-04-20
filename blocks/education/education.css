@@ -1,0 +1,19 @@
+.education {
+  background-color: #009fac;
+  padding: 0 9.3% 80px;
+
+}
+
+@media (max-width: 900px) {
+  .education {
+    padding: 0 39px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .education {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+  }
+}

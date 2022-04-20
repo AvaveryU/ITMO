@@ -1,0 +1,15 @@
+.logo_place_header {
+  margin: 13px 0;
+  object-fit: contain;
+}
+@media all and (max-width: 1024px) {
+  .logo_place_header {
+    margin: 14px 0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .logo_place_header {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,9 @@
+.projects__swiper_active {
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .projects__swiper_active {
+    display: none;
+  }
+}

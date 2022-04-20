@@ -1,0 +1,11 @@
+.projects__navigation {
+  position: relative;
+  margin-top: 34px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  .projects__navigation {
+    margin-bottom: 40px;
+  }
+}

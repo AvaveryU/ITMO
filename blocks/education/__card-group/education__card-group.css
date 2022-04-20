@@ -1,0 +1,25 @@
+.education__card-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .education__card-group {
+    width: 340px;
+  }
+}
+
+@media (max-width: 650px) {
+    .education__card-group {
+      margin-top: 20px;
+
+    }
+  }
+
+@media (max-width: 400px) {
+  .education__card-group {
+
+    width: 256px;
+  }
+}

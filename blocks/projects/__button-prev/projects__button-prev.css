@@ -1,0 +1,48 @@
+.projects__button-prev {
+  position: absolute;
+  background-image: url(../../../images/arrow-left-pagination.svg);
+  width: 32px;
+  height: 32px;
+  z-index: 15;
+  top: -4px;
+  left: 358px;
+}
+
+.projects__button-prev:hover {
+  background-image: url(../../../images/arrow-left-pagination-green.svg);
+}
+
+@media (max-width: 1300px) {
+  .projects__button-prev {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/arrow-left-pagination-tablet.svg);
+    top: -7px;
+    left: 185px;
+  }
+
+  .projects__button-prev:hover {
+    background-image: url(../../../images/arrow-left-pagination-green-tablet.svg);
+  }
+}
+
+@media (max-width: 750px) {
+  .projects__button-prev {
+    top: -7px;
+    left: 25%;
+  }
+}
+
+@media (max-width: 650px) {
+  .projects__button-prev {
+    top: -7px;
+    left: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__button-prev {
+    top: -7px;
+    left: 0;
+  }
+}

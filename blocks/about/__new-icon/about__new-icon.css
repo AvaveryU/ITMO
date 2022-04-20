@@ -1,0 +1,22 @@
+.about__new-icon {
+    width: 29.6px;
+    height: 40.09px;
+    position: absolute;
+    top: -14.16px;
+    left: 326.31px;
+  }
+@media screen and (max-width: 768px){
+  .about__new-icon {
+    height: 38.4px;
+    top: -14.2px;
+    left: 309.2px;
+  }
+}
+@media screen and (max-width: 320px){
+  .about__new-icon {
+    width: 23.68px;
+    height: 30.72px;
+    top: -11.36px;
+    left: 272px;
+  }
+}

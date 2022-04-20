@@ -1,0 +1,29 @@
+.cardconteiner__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: transparent;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    width: 170px;
+    transition: .2s;
+}
+
+.cardconteiner__text:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:800px) {
+    .cardconteiner__text {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

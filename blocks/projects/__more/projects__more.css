@@ -1,0 +1,40 @@
+.projects__more {
+  display: block;
+  text-decoration-line: none;
+  border: none;
+  background-color: inherit;
+  margin: 0 20px 20px 194px;
+  width: 40px;
+  height: 40px;
+  background-position: left -9px top -16px;
+  background-image: url(../../../images/Light.svg);
+}
+
+@media (max-width: 1300px) {
+  .projects__more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../../images/arrow-right-light-tablet.svg);
+    width: 32px;
+    height: 32px;
+    background-position: left -20px top -16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../../images/arrow-right-mobile.svg);
+    width: 20px;
+    height: 20px;
+    background-position: left -12px top -9px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

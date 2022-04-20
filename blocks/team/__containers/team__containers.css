@@ -1,0 +1,10 @@
+@media screen and (max-width: 1110px) {
+  .team__containers {
+    margin-left: 39px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .team__containers {
+    margin-left: 0;
+  }
+}

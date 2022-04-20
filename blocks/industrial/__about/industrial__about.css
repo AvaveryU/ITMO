@@ -1,0 +1,28 @@
+.industrial__about {
+  display: block;
+  max-width: 540px;
+  width: 100%;
+  min-height: 276px;
+  position: relative;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__about {
+    min-width: 330px;
+    min-height: 240px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .industrial__about {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__about {
+    min-width: 288px;
+    min-height: 196px;
+    margin-left: 32px;
+  }
+}

@@ -1,0 +1,30 @@
+.header__menu-mobile {
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2;
+  }
+  
+  @media all and (max-width: 1024px) {
+    .header__menu-mobile {
+      display: flex;
+    }
+  }
+  
+  @media all and (max-width:580px) {
+    .header__menu-mobile {
+      margin-top: 17.67px;
+    }
+  }
+  @media all and (max-width:320px) {
+    .header__menu-mobile {
+      margin-top: 14.67px;
+    }
+  }

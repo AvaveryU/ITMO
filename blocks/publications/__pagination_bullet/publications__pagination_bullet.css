@@ -1,0 +1,9 @@
+.publications__pagination_bullet {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0, 19, 55, 1);
+    border-radius: 36px;
+    opacity: 1;
+    margin-right: 12px;
+    opacity: 0.5;
+}

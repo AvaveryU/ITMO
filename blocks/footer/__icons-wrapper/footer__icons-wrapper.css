@@ -1,0 +1,15 @@
+.footer__icons-wrapper {
+  margin-top: 65px;
+}
+
+@media (max-width: 900px) {
+  .footer__icons-wrapper {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__icons-wrapper {
+    margin-top: 20px;
+  }
+}

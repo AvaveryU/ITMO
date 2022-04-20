@@ -1,0 +1,4 @@
+.publications__pagination_bullet_active {
+    opacity: 1;
+    background-color: rgba(0, 19, 55, 1);
+}

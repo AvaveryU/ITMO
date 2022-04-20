@@ -1,0 +1,16 @@
+.logo_place_mobile-menu {
+    margin:0;
+    position: fixed;
+    top: 14px;
+    left: 39px;
+    object-fit: contain;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  @media all and (max-width: 320px) {
+    .logo_place_mobile-menu {
+        top: 10px;
+        left: 16px;
+    }
+  }

@@ -1,0 +1,24 @@
+.education__text {
+  margin: 30px auto 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .education__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .education__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

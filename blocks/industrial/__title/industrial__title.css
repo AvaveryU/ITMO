@@ -1,0 +1,31 @@
+.industrial__title {
+  margin: 0 auto;
+  padding: 80px 165px 0 159px;
+  display: block;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  color: #000D26;
+  text-transform: uppercase;
+  min-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__title {
+    padding: 60px 0 0 0;
+    font-size: 24px;
+    line-height: 33px;
+    min-height: 33px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .industrial__title {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    min-height: 22px;
+  }
+}

@@ -1,0 +1,34 @@
+.form__submit-btn {
+  display: inline-block;
+  text-align: center;
+  background-color: inherit;
+  width: 350px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.form__submit-btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .form__submit-btn {
+    width: 210px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form__submit-btn {
+    width: 288px;
+    font-size: 14px;
+  }
+}

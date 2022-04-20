@@ -1,0 +1,8 @@
+.about__content {
+  max-width: 1122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+}

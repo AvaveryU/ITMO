@@ -1,0 +1,29 @@
+.popup__container {
+  position: relative;
+  max-width: 1110px;
+  width: calc(100% - 40px);
+  max-height: 718px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  border-radius: 10px;
+  cursor: default;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1020px) {
+  .popup__container {
+    max-width: 690px;
+    height: 454px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .popup__container {
+    max-width: 300px;
+    height: 444px;
+    padding: 16px;
+    flex-wrap: nowrap;
+}}

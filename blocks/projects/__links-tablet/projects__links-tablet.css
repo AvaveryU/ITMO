@@ -1,0 +1,21 @@
+.projects__links-tablet {
+  margin: 0 auto;
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .projects__links-tablet {
+    display: flex;
+    width: 690px;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__links-tablet {
+    display: none;
+  }
+}

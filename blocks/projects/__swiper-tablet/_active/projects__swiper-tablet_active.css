@@ -1,0 +1,17 @@
+@media (max-width: 1440px) {
+  .projects__swiper-tablet_active {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .projects__swiper-tablet_active {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__swiper-tablet_active {
+    display: none;
+  }
+}

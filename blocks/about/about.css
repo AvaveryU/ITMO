@@ -1,0 +1,32 @@
+.about {
+  max-width: 1440px;
+  max-height: 1483px;
+  background-color: #001337;
+  background-image: url(../../images/Background.png);
+  padding-top: 80px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-size: 1440px 1024px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .about {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    background-image: url(../../images/background-revers.png);
+    background-size: 1319px 938px;
+    background-position-x: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+    background-image: url(../../images/Background-320.png);
+    background-size: 320px 412px;
+    padding-top: 44px;
+  }
+}

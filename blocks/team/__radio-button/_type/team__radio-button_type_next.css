@@ -1,0 +1,28 @@
+.team__radio-button_type_next {
+  background: #001337;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  background-image: url(../../../../images/arrow-right-pagination.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 36px;
+  right: 89px;
+  bottom: 200px;
+  position: absolute;
+}
+@media screen and (max-width: 1410px) {
+  .team__radio-button_type_next {
+    right: 45px
+  }
+}
+@media screen and (max-width: 1330px) {
+  .team__radio-button_type_next {
+    right: 20px
+  }
+}
+@media screen and (max-width: 1280px) {
+  .team__radio-button_type_next {
+    display: none;
+  }
+}

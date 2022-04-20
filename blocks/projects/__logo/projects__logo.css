@@ -1,0 +1,52 @@
+.projects__logo {
+  width: 112px;
+  height: 48px;
+  margin: 20px 0 0 20px;
+  background-image: url(../../../images/gazprom_white.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projects__logo-sber {
+  width: 194px;
+  height: 48px;
+  background-image: url(../../../images/Sberbank-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects__logo-sber-tablet {
+  width: 172px;
+  height: 43px;
+  background-image: url(../../../images/Sberbank-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@media (max-width: 1300px) {
+  .projects__logo {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60px;
+    height: 26px;
+  }
+
+  .projects__logo-sber-mobile {
+    width: 106px;
+    height: 26px;
+    background-image: url(../../../images/Sberbank-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

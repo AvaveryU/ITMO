@@ -1,0 +1,8 @@
+.header__menu {
+  margin: 16px 0 20px 0;
+}
+@media all and (max-width: 1024px) {
+  .header__menu {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.industrial__photo {
+  width: 264px;
+  height: 276px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__photo:first-child {
+    display: none;
+  }
+
+  .industrial__photo {
+    width: 330px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}

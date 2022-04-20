@@ -1,0 +1,8 @@
+.publications {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #E0F0FF
+}

@@ -1,0 +1,11 @@
+.industrial__icons_type_robot {
+  background-image: url(../../../../images/robot-v.svg);
+  background-position: center calc(50% - 5px);
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icons_type_robot {
+    background-image: url(../../../../images/robot-vs.svg);
+    background-position: center center;
+  }
+}

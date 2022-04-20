@@ -1,0 +1,32 @@
+.projects__slide {
+  max-width: 1103px;
+  display: grid;
+  justify-content: center;
+  gap: 29px;
+  grid-template-columns: repeat(4, minmax(254px, auto));
+  grid-template-rows: repeat(2, minmax(54px, auto));
+}
+
+@media (max-width: 1300px) {
+  .projects__slide {
+    gap: 30px;
+    grid-template-columns: repeat(3, minmax(210px, 210px));
+    grid-template-rows: repeat(2, minmax(199px, auto));
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__slide {
+    gap: 30px;
+    grid-template-columns: repeat(2, minmax(210px, 210px));
+    grid-template-rows: repeat(2, minmax(199px, auto));
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__slide {
+    gap: 2.5%;
+    grid-template-columns: repeat(2, minmax(140px, 210px));
+    grid-template-rows: repeat(2, minmax(130px, auto));
+  }
+}

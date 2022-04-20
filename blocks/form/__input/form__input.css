@@ -1,0 +1,29 @@
+.form__input {
+  max-width: 352px;
+  padding: 19px 0 19px 20px;
+  vertical-align: top;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #009fac;
+}
+
+@media (max-width: 900px) {
+  .form__input {
+    padding: 11px 0 11px 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 750px) {
+  .form__input {
+    max-width: none;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 11px 0 11px 10px;
+  }
+}

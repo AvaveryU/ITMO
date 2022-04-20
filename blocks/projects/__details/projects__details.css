@@ -1,0 +1,24 @@
+.projects__details {
+  position: relative;
+  z-index: 4;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: none;
+  color: #001337;
+  margin: 0 0px 20px 20px;
+}
+
+@media (max-width: 800px) {
+  .projects__details {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-bottom: 14px;
+  }
+}

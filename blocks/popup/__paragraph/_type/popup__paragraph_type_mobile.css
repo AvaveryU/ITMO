@@ -1,0 +1,9 @@
+.popup__paragraph_type_mobile {
+  display: block;
+}
+
+@media screen and (max-width: 730px) {
+  .popup__paragraph_type_mobile {
+    display: none;
+  }
+}

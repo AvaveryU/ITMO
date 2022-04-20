@@ -1,0 +1,20 @@
+.header__menu-mobile-list {
+    width: 330px;
+    height: 420px;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 0;
+    background-color: #000D26;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    list-style: none;
+    z-index: 10;
+  }
+  
+  @media all and (max-width: 480px) {
+    .header__menu-mobile-list {
+      width: 320px;
+      height: 433px;
+    }
+  }
+  

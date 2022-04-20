@@ -1,0 +1,9 @@
+.publications__pagination {
+    margin-top: 50px;
+    width: 88px;
+    height: 8px;
+    left: 20px;
+    top: 674px;
+    display: flex;
+    justify-content: center;
+}

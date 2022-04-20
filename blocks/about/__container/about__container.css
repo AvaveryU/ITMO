@@ -1,0 +1,18 @@
+.about__container {
+    margin: 92px 165px 124px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+    .about__container {
+        justify-content: flex-start;
+        margin: 58px auto 120px 39px ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about__container {
+        justify-content: flex-start;
+        margin: 30px auto 60px 16px ;
+    }
+}

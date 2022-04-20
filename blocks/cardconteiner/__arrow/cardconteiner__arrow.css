@@ -1,0 +1,11 @@
+.cardconteiner__arrow {
+    margin-left: 15px;
+    visibility: hidden;
+    transition: .2s;
+}
+
+@media screen and (max-width:800px) {
+    .cardconteiner__arrow {
+        visibility: visible;
+    }
+}

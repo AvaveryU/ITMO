@@ -1,0 +1,19 @@
+.cardconteiner__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    color: #000D26;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

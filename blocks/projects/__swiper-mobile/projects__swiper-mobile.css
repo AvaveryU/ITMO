@@ -1,0 +1,9 @@
+.projects__swiper-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .projects__swiper-mobile {
+    width: 288px;
+  }
+}

@@ -1,0 +1,20 @@
+.header__menu-mobile-container {
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 0;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    z-index: 11;
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    overflow: hidden;
+  }
+  
+  @media all and (max-width:480px) {
+    .header__menu-mobile-container {
+      top: 44px;
+    }
+  }

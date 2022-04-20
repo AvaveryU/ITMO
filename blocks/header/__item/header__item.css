@@ -1,0 +1,24 @@
+.header__item {
+  width: 100px;
+  height: 44px;
+  margin-right: 20.83px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__item:hover {
+  border-bottom: solid 2px #009fac;
+}
+
+.header__item:hover .header__list-education {
+  display: block;
+}

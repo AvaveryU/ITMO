@@ -1,0 +1,14 @@
+.industrial__icon {
+  position: absolute;
+  top: 146px;
+  left: -36px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/icon.svg);
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icon {
+    display: none;
+  }
+}

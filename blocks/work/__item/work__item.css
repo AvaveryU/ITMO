@@ -1,0 +1,90 @@
+.work__item {
+  height: 48px;
+}
+.work__item:nth-of-type(n) {
+  margin-left: 10px;
+}
+.work__item:nth-of-type(1) {
+  /*обнулить отступ у первого лого первой строки (газпром) */
+  margin-left: 0;
+}
+.work__item:nth-of-type(2) {
+  /*(сбербанк) */
+  width: 194px;
+}
+.work__item:nth-of-type(6) {
+  /*обнулить отступ у первого лого второй строки (сбербанк) */
+  margin-left: 0;
+  width: 194px;
+}
+@media screen and (max-width: 768px) {
+  .work__item {
+    height: 32px;
+  }
+  .work__item:nth-of-type(n) {
+    margin-left: 0;
+  }
+  .work__item:nth-of-type(3) {
+    /*Мэил */
+    margin-left: 15px;
+  }
+  .work__item:nth-of-type(4) {
+    margin-left: 15px;
+  }
+  .work__item:nth-of-type(5) {
+    margin-left: 15px;
+  }
+  .work__item:nth-of-type(7) {
+    margin-right: 15px;
+  }
+  .work__item:nth-of-type(8) {
+    margin-right: 45px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .work__item {
+    height: 20px;
+    align-self: flex-end;
+  }
+  .work__item:nth-of-type(1) {
+    /*газпром */
+    order: 2;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .work__item:nth-of-type(3) {
+    /*Мэил */
+    order: 3;
+  }
+  .work__item:nth-of-type(4) {
+    /*Сименс */
+    order: 4;
+    margin-left: 0;
+  }
+  .work__item:nth-of-type(5) {
+    /*Хуавей */
+    order: 8;
+  }
+  .work__item:nth-of-type(6) {
+    /*Сбербанк */
+    order: 7;
+    width: auto;
+  }
+  .work__item:nth-of-type(7) {
+    /*Роснефть */
+    order: 1;
+    margin-left: 0;
+    width: 89px;
+    height: 30px;
+  }
+  .work__item:nth-of-type(8) {
+    /*Газпром */
+    order: 6;
+    margin-right: 0;
+  }
+  .work__item:nth-of-type(10) {
+    /*Мэил*/
+    order: 5;
+    margin-right: 30px;
+  }
+}

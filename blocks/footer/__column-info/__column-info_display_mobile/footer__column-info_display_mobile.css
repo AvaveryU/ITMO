@@ -1,0 +1,10 @@
+.footer__column-info_display_mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .footer__column-info_display_mobile {
+    display: block;
+    max-width: 140px;
+  }
+}

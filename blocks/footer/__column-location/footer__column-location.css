@@ -1,0 +1,9 @@
+.footer__column-location {
+  max-width: 206px;
+}
+
+@media (max-width: 500px) {
+  .footer__column-location {
+    margin-top: 40px;
+  }
+}

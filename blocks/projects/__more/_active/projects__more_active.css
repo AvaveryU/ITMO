@@ -1,0 +1,25 @@
+.projects__more_active {
+  margin: 100px 20px 20px 194px;
+  background-position: left -20px top -16px;
+  background-image: url(../../../../images/Button_left.svg);
+}
+
+@media (max-width: 1300px) {
+  .projects__more_active {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__more_active {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../../../images/arrow-left-mobile.svg);
+    background-position: left -12px top -9px;
+  }
+}

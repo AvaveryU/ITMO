@@ -1,0 +1,45 @@
+.popup__paragraph {
+  display: block;
+  max-width: 650px;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin: 0 0 23.5px 0;
+}
+
+.popup__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .popup__paragraph {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .popup__paragraph {
+    max-width: 431px;
+    margin: 0 0 17px 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .popup__paragraph {
+    max-width: 268px;
+    margin: 0;
+    order: 3;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+  }
+
+  ul.popup__paragraph {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.cardconteiner__about_removed {
+    bottom: 70px;
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__about_removed {
+        top: 179px;
+    }
+}

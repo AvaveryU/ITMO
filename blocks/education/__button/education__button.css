@@ -1,0 +1,47 @@
+.education__button {
+  display: block;
+  margin: 35px auto 0;
+  border-radius: 10px;
+  border: none;
+  width: 540px;
+  height: 60px;
+  background-image: url(../../../images/aspirantura-green.svg);
+}
+
+.education__button-toggle {
+  width: 540px;
+  height: 60px;
+  background-image: url(../../../images/aspirantura-grey.svg);
+}
+
+@media (max-width: 900px) {
+  .education__button {
+    margin-top: 30px;
+    width: 450px;
+    height: 44px;
+    background-image: url(../../../images/aspirantura-tablet-green.svg);
+  }
+
+  .education__button-toggle {
+    width: 450px;
+    height: 44px;
+    background-image: url(../../../images/aspirantura-tablet-grey.svg);
+  }
+}
+
+@media (max-width: 600px) {
+  .education__button {
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 16px;
+    width: 288px;
+    height: 40px;
+    background-image: url(../../../images/aspirantura-green-mobile.svg);
+  }
+
+  .education__button-toggle {
+    width: 288px;
+    height: 40px;
+    background-image: url(../../../images/aspirantura-grey-mobile.svg);
+  }
+}

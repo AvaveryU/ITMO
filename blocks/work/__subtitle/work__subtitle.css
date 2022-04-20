@@ -1,0 +1,8 @@
+.work__subtitle {
+  margin: 30px auto 0;
+}
+@media screen and (max-width: 768px) {
+  .work__subtitle {
+    margin-top: 20px;
+  }
+}

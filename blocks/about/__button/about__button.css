@@ -1,0 +1,38 @@
+.about__button {
+  max-width: 350px;
+  height: 60px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 50px;
+  padding: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.about__button:hover {
+  border: 1px solid #e0f0ff;
+  color: #e0f0ff;
+}
+
+@media screen and (max-width: 480px){
+  .about__button {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 480 - 320) ));
+    line-height: calc(19px + (30 - 19) * ( (100vw - 320px) / ( 480 - 320) ));
+    width: 288px;
+  }
+}

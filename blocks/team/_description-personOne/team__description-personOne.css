@@ -1,0 +1,13 @@
+.team__description-personOne:before {
+  content: "Директор, руководитель, ДТН";
+}
+@media screen and (max-width: 768px) {
+  .team__description-personOne:before {
+    content: "Директор, профессор, ДТН";
+  }
+}
+@media screen and (max-width: 425px) {
+  .team__description-personOne:before {
+    content: "Директор, ДТН";
+  }
+}

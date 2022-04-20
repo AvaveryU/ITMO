@@ -1,0 +1,30 @@
+.industrial__gallery {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 430px;
+  gap: 30px;
+  margin-top: 80px;
+  box-sizing: content-box;
+  padding-left: 34px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__gallery {
+    max-width: 690px;
+    min-height: 252px;
+    margin: 50px auto 0 auto;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .industrial__gallery {
+    margin: 18px auto 0 auto;
+    max-width: 690px;
+    min-height: 456px;
+    gap: 8px;
+  }
+}

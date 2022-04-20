@@ -1,0 +1,35 @@
+.education__card-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  padding-left: 30px;
+  color: #000d26;
+}
+
+@media (max-width: 1100px) {
+    .education__card-text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+@media (max-width: 900px) {
+  .education__card-text {
+    padding-left: 26px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .education__card-text {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

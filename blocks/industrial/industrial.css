@@ -1,0 +1,19 @@
+.industrial {
+  max-width: 100%;
+  padding: 0 165px 80px 129px;
+  background-color: #E0F0FF;
+  box-sizing: content-box;
+
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial {
+    padding: 0 39px 51px 39px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .industrial {
+    padding: 0 16px 40px 16px;
+  }
+}

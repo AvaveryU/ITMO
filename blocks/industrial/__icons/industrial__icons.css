@@ -1,0 +1,27 @@
+.industrial__icons {
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px rgb(1, 54, 157, .15);
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__icons {
+    height: 41px;
+    width: 41px;
+    border-radius: 36px;
+    margin-bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__icons {
+    height: 40px;
+    width: 40px;
+    box-shadow: 0px 2.2px 11.2px 0px rgba(1, 54, 157, 0.15);
+    border-radius: 68px;
+  }
+}

@@ -1,0 +1,16 @@
+.logo_place_footer {
+  margin-bottom: 38px;
+}
+
+@media (max-width: 900px) {
+  .logo_place_footer {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo_place_footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

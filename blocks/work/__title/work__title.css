@@ -1,0 +1,22 @@
+.work__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .work__title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .work__title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

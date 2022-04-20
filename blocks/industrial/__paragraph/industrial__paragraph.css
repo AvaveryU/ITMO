@@ -1,0 +1,27 @@
+.industrial__paragraph {
+  display: block;
+  width: 100%;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000D26;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__paragraph {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+    font-weight: 400;
+  }
+}

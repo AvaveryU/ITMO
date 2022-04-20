@@ -1,0 +1,6 @@
+.cardconteiner__stright {
+    width: 194px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

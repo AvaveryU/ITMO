@@ -1,0 +1,11 @@
+.cardconteiner__triangle {
+    cursor: pointer;
+    visibility: hidden;
+    transition: .2s;
+}
+
+@media screen and (max-width:800px) {
+    .cardconteiner__triangle {
+        visibility: visible;
+    }
+}

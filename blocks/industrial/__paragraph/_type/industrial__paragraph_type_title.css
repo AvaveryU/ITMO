@@ -1,0 +1,18 @@
+.industrial__paragraph_type_title {
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1230px) {
+  .industrial__paragraph_type_title {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .industrial__paragraph_type_title {
+    line-height: 16px;
+  }
+}

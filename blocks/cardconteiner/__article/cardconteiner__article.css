@@ -1,0 +1,18 @@
+.cardconteiner__article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 308px;
+    color: #000D26;
+    min-height: 133px;
+}
+
+@media screen and (max-width:698px) {
+    .cardconteiner__article {
+        font-size: 12px;
+        line-height: 16px;
+        width: 256px;
+    }
+}

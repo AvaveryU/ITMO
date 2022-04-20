@@ -1,0 +1,22 @@
+.projects__links-mobile {
+  margin: 0 auto 20px;
+  display: none;
+  width: 288px;
+  height: 42px;
+  background-color: #001337;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #009fac;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+}
+
+@media (max-width: 767px) {
+  .projects__links-mobile {
+    display: block;
+  }
+}

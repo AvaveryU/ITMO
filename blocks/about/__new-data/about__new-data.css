@@ -1,0 +1,20 @@
+.about__new-data {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #009fac;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 0px 0px 8px 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 320px){
+    .about__new-data {
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }

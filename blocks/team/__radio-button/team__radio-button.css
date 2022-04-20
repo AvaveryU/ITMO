@@ -1,0 +1,21 @@
+.team__radio-button {
+  padding: 0;
+  border: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #ffffff;
+  opacity: 0.5;
+}
+@media screen and (max-width: 1080px) {
+  .team__radio-button:nth-last-child(1) {
+    display: flex;
+  }
+}
+@media screen and (max-width: 425px) {
+  .team__radio-button {
+    width: 4px;
+    height: 4px;
+  }
+}

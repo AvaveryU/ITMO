@@ -1,0 +1,25 @@
+.about__new-title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #001337;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+    margin-bottom: 20px;
+    -webkit-line-clamp: 3; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+  }
+  @media screen and (max-width: 320px){
+    .about__new-title {
+      margin-bottom: 12px;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }

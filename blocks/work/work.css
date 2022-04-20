@@ -1,0 +1,24 @@
+.work {
+  min-height: 987px;
+  background-color: #001337;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 1080px) {
+  .work {
+    padding: 0 39px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work {
+    min-height: 713px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .work {
+    min-height: 621px;
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,7 @@
+.industrial__item_type_brain {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../../images/machine-p.png);
+}
+
+.industrial__item_type_brain:hover {
+  background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url(../../../../images/machine-p.png);
+}

@@ -1,0 +1,23 @@
+.projects__item_active {
+  display: none;
+  z-index: 2;
+  width: 537px;
+  position: relative;
+  height: 228px;
+  border-radius: 10px;
+  background-color: #e0f0ff;
+}
+
+@media (max-width: 1300px) {
+  .projects__item_active {
+    width: 450px;
+    height: 199px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__item_active {
+    width: 288px;
+    height: 130px;
+  }
+}

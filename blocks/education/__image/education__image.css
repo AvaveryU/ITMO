@@ -1,0 +1,51 @@
+.education__image {
+  width: 445px;
+  height: 364px;
+  background-image: url(../../../images/image-education2.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.education__image-toggle {
+  width: 445px;
+  height: 364px;
+  background-image: url(../../../images/image-education1.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1100px) {
+    .education__image {
+      width: 330px;
+      height: 282px;
+    }
+    .education__image-toggle {
+      width: 280px;
+      height: 282px;
+    }
+  }
+
+@media (max-width: 900px) {
+  .education__image {
+    width: 280px;
+    height: 282px;
+  }
+  .education__image-toggle {
+    width: 280px;
+    height: 282px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .education__image {
+    width: 256px;
+    height: 160px;
+  }
+  .education__image-toggle {
+    width: 256px;
+    height: 160px;
+  }
+}

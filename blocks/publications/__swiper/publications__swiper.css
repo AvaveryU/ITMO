@@ -1,0 +1,17 @@
+.publications__swiper {
+    max-width: 1105px;
+    min-width: 300px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1350px) {
+    .publications__swiper {
+        max-width: 688px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .publications__swiper {
+        max-width: 300px;
+    }
+}

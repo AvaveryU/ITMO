@@ -1,0 +1,30 @@
+.header__menu-mobile-item {
+    min-height: 44px;
+    padding-left: 40px;
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 14px;
+    transition: background-color .5s linear;
+  }
+  
+  @media all and (max-width: 480px) {
+    .header__menu-mobile-item {
+      padding-left: 16px;
+    }
+  }
+  
+  .header__menu-mobile-item:hover  {
+    background-color: #001337;
+  }
+  
+  .header__menu-mobile-item:hover .header__menu-mobile-link {
+    opacity: 1;
+  }
+  

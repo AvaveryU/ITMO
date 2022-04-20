@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+  .team__description_type_disabled {
+    display: none;
+  }
+}

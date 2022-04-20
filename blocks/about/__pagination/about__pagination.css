@@ -1,0 +1,11 @@
+.about__pagination {
+    bottom: -34.5px !important;
+  }
+  .swiper-pagination-bullet {
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+  }
+  .swiper-pagination-bullet-active {
+    --swiper-theme-color: #fff;
+  }

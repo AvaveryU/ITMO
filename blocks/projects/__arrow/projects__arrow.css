@@ -1,0 +1,6 @@
+.projects__arrow {
+    background-image: url(../../../images/arrow-right.svg);
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}

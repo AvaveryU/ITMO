@@ -1,0 +1,23 @@
+.cardconteiner__footer {
+    display: flex;
+    width: 348px;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #009FAC;
+    border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (max-width: 1350px) {
+    .cardconteiner__footer {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner__footer {
+        width: 288px;
+        height: 44px;
+    }
+}

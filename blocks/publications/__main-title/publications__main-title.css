@@ -1,0 +1,13 @@
+.publications__main-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #001337;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}

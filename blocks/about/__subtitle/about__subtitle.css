@@ -1,0 +1,21 @@
+.about__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+@media screen and (max-width: 480px){
+  .about__subtitle {
+    font-size: calc(14px + (20 - 14) * ( (100vw - 320px) / ( 480 - 320) ));
+    line-height: calc(19px + (30 - 19) * ( (100vw - 320px) / ( 480 - 320) ));
+  }
+}

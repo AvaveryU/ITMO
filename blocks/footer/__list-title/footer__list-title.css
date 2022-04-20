@@ -1,0 +1,19 @@
+.footer__list-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 900px) {
+  .footer__list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

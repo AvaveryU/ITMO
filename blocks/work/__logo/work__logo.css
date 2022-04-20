@@ -1,0 +1,23 @@
+.work__logo {
+  margin: 100px auto 80px;
+  padding: 0 165px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  flex-basis: 146px;
+}
+@media screen and (max-width: 1080px) {
+  .work__logo {
+    margin: 60px auto 76px;
+    padding: 0;
+    flex-basis: 94px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .work__logo {
+    margin: 40px auto 40px;
+    flex-basis: 110px;
+  }
+}

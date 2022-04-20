@@ -1,0 +1,9 @@
+.header__menu-mobile-button_open{
+    left: 292.49px;
+}
+
+@media all and (max-width: 320px) {
+    .header__menu-mobile-button_open {
+        left: 282.49px;
+    }
+  }

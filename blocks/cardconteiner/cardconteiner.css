@@ -1,0 +1,30 @@
+.cardconteiner {
+    max-width: 348px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 548px;
+    position: relative;
+    list-style: none;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+    .cardconteiner {
+        max-width: 330px;
+        height: 515px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .cardconteiner {
+        height: 462px;
+        padding-top: 16px;
+        flex-shrink: 0;
+    }
+}

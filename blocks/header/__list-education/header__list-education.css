@@ -1,0 +1,12 @@
+.header__list-education {
+  display: none;
+  padding: 0;
+  top: 44px;
+  left: 0;
+  padding-top: 19px;
+  position: absolute;
+  list-style-type: none;
+  background-color: #000d26;
+  width: 120px;
+  height: 56px;
+}

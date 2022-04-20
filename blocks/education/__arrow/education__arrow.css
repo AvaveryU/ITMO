@@ -1,0 +1,9 @@
+.education__arrow {
+    margin-top: 3px;
+}
+
+@media (max-width: 900px) {
+    .education__arrow {
+        margin-top: 0;
+    }
+}

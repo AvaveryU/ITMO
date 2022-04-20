@@ -1,0 +1,28 @@
+.header__menu-mobile-button {
+    top: 29.33px;
+    left: 41px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    transition: 0.4s;
+}
+  
+@media all and (max-width: 1024px) {
+  .header__menu-mobile-button {
+    display: inline-block;
+  }
+}
+  
+@media all and (max-width: 480px) {
+  .header__menu-mobile-button {
+    left: 17px;
+  }
+}
+@media all and (max-width: 320px) {
+  .header__menu-mobile-button {
+    top: 23px;
+  }
+}
+  

@@ -1,0 +1,15 @@
+.projects__link-tablet {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  width: 140px;
+  color: #ffffff;
+}
+
+.projects__link-tablet:active {
+  font-weight: 600;
+}
