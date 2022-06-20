@@ -4,14 +4,14 @@ const section = document.querySelector(".publications");
 ///массив данных для карточек
 const initialCards = [{
         articleLink: "https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:O3NaXMp0MMsC",
-        image: "/vendor/images/image1.svg",
+        image: "./vendor/images/image1.svg",
         theme: "Topic-driven Ensemble for Online Advertising Generation",
         authors: "Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov",
         article: "Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. Professional generation of banners requires creative and writing skills and a basi…",
     },
     {
         articleLink: "https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:GnPB-g6toBAC",
-        image: "/vendor/images/image2.2.png",
+        image: "./vendor/images/image2.2.png",
         theme: "Convolutional neural networks with hierarchical context transfe…",
         authors: "Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov",
         article: "In this work, we consider a problem of predicting the next state of a given area using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig…",
@@ -312,8 +312,8 @@ function createCard(cardData) {
     const theme = card.querySelector(".cardconteiner__title");
     const authors = card.querySelector(".cardconteiner__authors");
     const article = card.querySelector(".cardconteiner__article");
-    link.setAttribute("href", cardData.articleLink);
-    image.setAttribute("src", cardData.image);
+    link.href = cardData.articleLink;
+    image.src = cardData.image;
     theme.textContent = cardData.theme;
     authors.textContent = cardData.authors;
     article.textContent = cardData.article;
