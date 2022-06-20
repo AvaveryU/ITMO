@@ -312,8 +312,8 @@ function createCard(cardData) {
     const theme = card.querySelector(".cardconteiner__title");
     const authors = card.querySelector(".cardconteiner__authors");
     const article = card.querySelector(".cardconteiner__article");
-    link.href = cardData.articleLink;
-    image.src = cardData.image;
+    link.href = `${cardData.articleLink}`;
+    image.src = `${cardData.image}`;
     theme.textContent = cardData.theme;
     authors.textContent = cardData.authors;
     article.textContent = cardData.article;
