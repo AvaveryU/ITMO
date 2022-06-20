@@ -18,7 +18,7 @@ const initialCards = [{
     },
     {
         articleLink: "https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:blknAaTinKkC",
-        image: "/vendor/images/image3.svg",
+        image: "./vendor/images/image3.svg",
         theme: "Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…",
         authors: "Ksenia Mukhina, Alexander Visheratin, Denis Nasonov",
         article: "One of the areas that gathers momentum is the investigation of location-based social networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living, enhance urban management, and advance the development of smart cities. But it is widely known that the…",
@@ -312,8 +312,8 @@ function createCard(cardData) {
     const theme = card.querySelector(".cardconteiner__title");
     const authors = card.querySelector(".cardconteiner__authors");
     const article = card.querySelector(".cardconteiner__article");
-    link.href = cardData.articleLink;
-    image.src = cardData.image;
+    link.href = `${cardData.articleLink}`;
+    image.src = `${cardData.image}`;
     theme.textContent = cardData.theme;
     authors.textContent = cardData.authors;
     article.textContent = cardData.article;
