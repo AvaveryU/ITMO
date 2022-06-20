@@ -1176,6 +1176,7 @@ const swiper_2_mobile = document.getElementById("select-02-mobile");
 const swiper_3_mobile = document.getElementById("select-03-mobile");
 const swiper_4_mobile = document.getElementById("select-04-mobile");
 
+
 function createPagination(current, total) {
     let str = '<ul class="projects__pagination">';
     let active;
